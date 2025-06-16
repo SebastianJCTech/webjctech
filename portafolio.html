@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuro Digital</title>
+    <link rel="stylesheet" href="portafolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+   
+
+
+
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link active">Inicio</a>
+                <a href="index.html" class="nav-link">Nosotros</a>
+                <a href="index.html" class="nav-link">Servicios</a>
+                <a href="portafolio.html" class="nav-link">Portafolio</a>
+                <a href="#contact" class="nav-link">Contacto</a>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+
+<!--sección de imagenes con carrucel-->
+<section id="portafolio-jctech" class="portfolio-vertical">
+  <!--CARRUCEL 1-->
+  <div class="portfolio-item">
+    <div class="portfolio-carousel">
+      <div class="carousel-track">
+        <img src="imagenes/eclipse web.png" alt="Imagen 1">
+        <img src="imagenes/eclipse 2.PNG" alt="Imagen 2">
+        <img src="imagenes/eclipse 3.PNG" alt="Imagen 3">
+      </div>
+      <button class="carousel-btn prev" onclick="moveSlide(this, -1)">&#10094;</button>
+      <button class="carousel-btn next" onclick="moveSlide(this, 1)">&#10095;</button>
+    </div>
+    <div class="portfolio-text">
+       <h3>Pagina Web Informativa</h3>
+    <p>
+      Pagina Web unicamente informativa que incluye Hosting y  domunio (gratis por un año , luego es una menbresia de Q1000 anual donde incluye mantenimiento de la web) para poder darse a conocer en el mundo de la informatica donde se encuentra "Misión y Visión" , "Quines Somos" , Ubicaciones de tiendas , esta misma esta creada con tecnologias a la banguardia como HTML, CSS y Java , el proyecto se fue realizado en un mes luego de haber obtenido la información completa sobre el giro del negocio. 
+    </p>
+      <span class="price">Desde Q2,000.00</span>
+    </div>
+  </div>
+<!--CARRUCEL 2-->
+  <div class="portfolio-item">
+    <div class="portfolio-carousel">
+      <div class="carousel-track">
+        <img src="imagenes/proptic.PNG" alt="Imagen 1">
+        <img src="imagenes/proptic 2.PNG" alt="Imagen 2">
+        <img src="imagenes/proptic3.PNG" alt="Imagen 3">
+        <img src="imagenes/proptic4.PNG" alt="Imagen 4s">
+      </div>
+      <button class="carousel-btn prev" onclick="moveSlide(this, -1)">&#10094;</button>
+      <button class="carousel-btn next" onclick="moveSlide(this, 1)">&#10095;</button>
+    </div>
+    <div class="portfolio-text">
+       <h3>Pagina Web Informativa Con mapa de ubicaciones</h3>
+    <p>
+      Pagina Web unicamente informativa que incluye Hosting y  domunio (gratis por un año , luego es una menbresia de Q1000 anual donde incluye mantenimiento de la web) para poder darse a conocer en el mundo de la informatica donde se encuentra "Misión y Visión" , "Quines Somos" , Ubicaciones de tiendas , esta misma esta creada con tecnologias a la banguardia como HTML, CSS y Java , el proyecto se fue realizado en un mes luego de haber obtenido la información completa sobre el giro del negocio. 
+    </p>
+      <span class="price">Desde Q2,000.00</span>
+    </div>
+  </div>
+</section>
+<!--sfin carrucel-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--SECCION DE CONTACTO ALTERNA-->
+
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <h2 class="section-title">CONTÁCTANOS</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3 class="contact-subtitle">Información de contacto</h3>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p></p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+502 5490-5539</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>computojctech@gmail.com</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/1ArRS1SeiZ/?mibextid=wwXIfr" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <!--<a href="#" class="social-link"><i class="fab fa-twitter"></i></a>-->
+                    <a href="https://www.instagram.com/computojctech?igsh=ODlub21mYmY5eGQ5" class="social-link"><i class="fab fa-instagram"></i></a>
+                   <!-- <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>-->
+                </div>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Asunto" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Mensaje" class="form-textarea"></textarea>
+                    </div>
+                    <button type="submit" class="futuristic-btn hover-effect">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="futuristic-footer">
+        <div class="footer-content">
+            <div class="footer-logo">EL FUTURO ESTA AQUI</div>
+           
+    <!-- About Section -->
+    <section id="about" class="about-section">
+    
+        <div class="about-tech-icons">
+            <i class="fab fa-js-square" title="JavaScript"></i>
+            <i class="fab fa-html5" title="HTML5"></i>
+            <i class="fab fa-css3-alt" title="CSS3"></i>
+            <i class="fab fa-react" title="React"></i>
+            <i class="fab fa-node" title="Node.js"></i>
+            <i class="fab fa-python" title="Python"></i>
+            <i class="fab fa-docker" title="Docker"></i>
+            <i class="fab fa-git-alt" title="Git"></i>
+        </div>
+    </section>
+            <div class="footer-copy">
+                &copy; DEJA TU PROYECTO EN MANOS DE NUESTRO FUTURO
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Script para desvanecer logo -->
+    <script>
+    window.addEventListener('scroll', function() {
+        const logo = document.querySelector('.logo-fade');
+        if (window.scrollY > 50) {
+            logo.classList.add('hidden');
+        } else {
+            logo.classList.remove('hidden');
+        }
+    });
+    </script>
+</body>
+</html>
+<!--*************************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
